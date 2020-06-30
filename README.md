@@ -11,6 +11,9 @@ If you need to download Nicovideo videos, you need to first edit this .bat file 
 Script that allows to see the player even when the screen is completely glitched out.
 This is just a lua script, however I can't upload it in the userfiles because it depends on some .png files. Many, actually. In any case, everything is included in the .zip file. Just extract it where you want and use it with BizHawk.
 
+# stream cropper
+Little tool that allows to live stream only a section of your monitor, as opposed of streaming the full screen or a specific window only, as the Discord streaming functionality doesn't support alternatives. Launch the .exe file, and a black window will appear. Then, start the streaming on Discord, and choose to stream the window of this tool. Every other window that is placed on top of the black rectangle will be streamed. Written in C++ with Win32 API, for high performance.
+
 # TAStudio color hack
 Tool for changing the colors in TAStudio, by hacking specific bytes in EmuHawk.exe. Currently works only for BizHawk 2.4.2.
 Has a nice GUI interface and can use Windows' internal color picker, by clicking on the colored rectangles.
